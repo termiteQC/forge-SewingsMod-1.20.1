@@ -19,6 +19,7 @@ public class SewingsMod {
     public static final String MOD_ID = "sewingsmod";
     public static final Logger LOGGER = LogUtils.getLogger();
 
+
     public SewingsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
