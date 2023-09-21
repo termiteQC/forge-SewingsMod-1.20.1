@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SewingsMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> SEWINGSMOD_TAB = CREATIVE_MODE_TABS.register("sewingsmod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ANDESITE_BALL_OF_YARN.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DIAMOND_BALL_OF_YARN.get()))
                     .title(Component.translatable("creativetab.sewingsmod_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
@@ -100,6 +100,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.WOOD_WOOL.get());
                         pOutput.accept(ModItems.WOOD_STRING.get());
                         pOutput.accept(ModItems.WOOD_BALL_OF_YARN.get());
+
+
+                        pOutput.accept(ModItems.WOOD_SHEARS.get());
+                        pOutput.accept(ModItems.GOLD_SHEARS.get());
+                        pOutput.accept(ModItems.EMERALD_SHEARS.get());
+                        pOutput.accept(ModItems.DIAMOND_SHEARS.get());
+                        pOutput.accept(ModItems.OBSIDIAN_SHEARS.get());
+                        pOutput.accept(ModItems.NETHERITE_SHEARS.get());
+
+                        pOutput.accept(ModBlocks.CARDING_TABLE.get());
+                        pOutput.accept(ModBlocks.SEWINGS_MACHINE.get());
+                        pOutput.accept(ModBlocks.WINDER_POLE.get());
 
                     })
                     .build());

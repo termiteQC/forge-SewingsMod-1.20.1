@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+
+    "&": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    " & ",
+    "#&&",
+    "## "
+  ],
+  "result": {
+    "item": "sewingsmod:obsidian_shears"
+  },
+  "show_notification": true
+}

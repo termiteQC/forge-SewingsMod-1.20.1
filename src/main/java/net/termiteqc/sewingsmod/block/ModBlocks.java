@@ -74,6 +74,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> WOOD_WOOL = registerBlock("wood_wool",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
 
+    public static final RegistryObject<Block> CARDING_TABLE = registerBlock("carding_table",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> SEWINGS_MACHINE = registerBlock("sewings_machine",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> WINDER_POLE = registerBlock("winder_pole",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

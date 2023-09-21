@@ -1,0 +1,33 @@
+{
+  "values": [
+    "sewingsmod:andesite_wool",
+    "sewingsmod:clay_wool",
+    "sewingsmod:coal_wool",
+    "sewingsmod:cobblestone_wool",
+    "sewingsmod:diamond_wool",
+    "sewingsmod:diorite_wool",
+    "sewingsmod:dirt_wool",
+    "sewingsmod:emerald_wool",
+    "sewingsmod:glowstone_wool",
+    "sewingsmod:gold_wool",
+    "sewingsmod:granite_wool",
+    "sewingsmod:gravel_wool",
+    "sewingsmod:ice_wool",
+    "sewingsmod:iron_wool",
+    "sewingsmod:lapis_wool",
+    "sewingsmod:netherite_wool",
+    "sewingsmod:netherrack_wool",
+    "sewingsmod:obsidian_wool",
+    "sewingsmod:prismarine_shard_wool",
+    "sewingsmod:prismarine_wool",
+    "sewingsmod:pumpkin_wool",
+    "sewingsmod:quartz_wool",
+    "sewingsmod:redstone_wool",
+    "sewingsmod:sand_wool",
+    "sewingsmod:slime_wool",
+    "sewingsmod:soulsand_wool",
+    "sewingsmod:wood_wool"
+
+
+  ]
+}

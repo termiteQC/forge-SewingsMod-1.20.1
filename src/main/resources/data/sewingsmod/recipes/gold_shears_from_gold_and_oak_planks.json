@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+
+    "&": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " & ",
+    "#&&",
+    "## "
+  ],
+  "result": {
+    "item": "sewingsmod:gold_shears"
+  },
+  "show_notification": true
+}

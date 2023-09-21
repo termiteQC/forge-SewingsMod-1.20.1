@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+
+    "&": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " & ",
+    "#&&",
+    "## "
+  ],
+  "result": {
+    "item": "sewingsmod:diamond_shears"
+  },
+  "show_notification": true
+}

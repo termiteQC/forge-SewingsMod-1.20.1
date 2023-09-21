@@ -2,6 +2,7 @@ package net.termiteqc.sewingsmod.item;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShearsItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -172,6 +173,22 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
     public static final RegistryObject<Item> WOOD_STRING = ITEMS.register("wood_string",
             () -> new Item(new Item.Properties()));
 
+
+
+
+
+    public static final RegistryObject<Item> WOOD_SHEARS = ITEMS.register("wood_shears",
+            () -> new ShearsItem(new Item.Properties().durability(5)));
+    public static final RegistryObject<Item> GOLD_SHEARS = ITEMS.register("gold_shears",
+            () -> new ShearsItem(new Item.Properties().durability(33)));
+    public static final RegistryObject<Item> EMERALD_SHEARS = ITEMS.register("emerald_shears",
+            () -> new ShearsItem(new Item.Properties().durability(450)));
+    public static final RegistryObject<Item> DIAMOND_SHEARS = ITEMS.register("diamond_shears",
+            () -> new ShearsItem(new Item.Properties().durability(531)));
+    public static final RegistryObject<Item> OBSIDIAN_SHEARS = ITEMS.register("obsidian_shears",
+            () -> new ShearsItem(new Item.Properties().durability(1001)));
+    public static final RegistryObject<Item> NETHERITE_SHEARS = ITEMS.register("netherite_shears",
+            () -> new ShearsItem(new Item.Properties().durability(2577)));
 
 
 

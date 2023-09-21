@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+
+    "&": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    " & ",
+    "#&&",
+    "## "
+  ],
+  "result": {
+    "item": "sewingsmod:emerald_shears"
+  },
+  "show_notification": true
+}

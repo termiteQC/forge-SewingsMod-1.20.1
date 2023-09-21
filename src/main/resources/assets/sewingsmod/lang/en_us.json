@@ -107,5 +107,20 @@
   "item.sewingsmod.wood_ball_of_yarn": "Wood Ball Of Yarn",
   "block.sewingsmod.wood_wool": "Wood Wool",
 
+
+
+  "item.sewingsmod.wood_shears": "Wood Shears",
+  "item.sewingsmod.gold_shears": "Gold Shears",
+  "item.sewingsmod.emerald_shears": "Emerald Shears",
+  "item.sewingsmod.diamond_shears": "Diamond Shears",
+  "item.sewingsmod.obsidian_shears": "Obsidian Shears",
+  "item.sewingsmod.netherite_shears": "Netherite Shears",
+
+  "item.sewingsmod.carding_table": "Carding Table",
+  "item.sewingsmod.sewings_machine": "Sewings Machine",
+  "item.sewingsmod.winder_pole": "Winder Pole",
+
+
+
   "creativetab.sewingsmod_tab": "SewingsMod"
 }

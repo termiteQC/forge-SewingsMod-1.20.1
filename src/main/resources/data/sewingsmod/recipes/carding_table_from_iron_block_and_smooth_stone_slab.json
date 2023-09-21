@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+
+    "&": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "pattern": [
+    "&&&",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "sewingsmod:carding_table"
+  },
+  "show_notification": true
+}
