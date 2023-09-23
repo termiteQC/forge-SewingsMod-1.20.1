@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.termiteqc.sewingsmod.SewingsMod;
+import net.termiteqc.sewingsmod.block.custom.CardingTable;
+import net.termiteqc.sewingsmod.block.custom.SewingsMachine;
+import net.termiteqc.sewingsmod.block.custom.WinderPole;
 import net.termiteqc.sewingsmod.item.ModItems;
 
 import java.util.Properties;
@@ -75,11 +78,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
 
     public static final RegistryObject<Block> CARDING_TABLE = registerBlock("carding_table",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+            () -> new CardingTable(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB).noOcclusion()));
     public static final RegistryObject<Block> SEWINGS_MACHINE = registerBlock("sewings_machine",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new SewingsMachine(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> WINDER_POLE = registerBlock("winder_pole",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
+            () -> new WinderPole(BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
