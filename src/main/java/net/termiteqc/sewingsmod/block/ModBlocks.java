@@ -15,7 +15,6 @@ import net.termiteqc.sewingsmod.block.custom.SewingsMachine;
 import net.termiteqc.sewingsmod.block.custom.WinderPole;
 import net.termiteqc.sewingsmod.item.ModItems;
 
-import java.util.Properties;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -76,6 +75,65 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
     public static final RegistryObject<Block> WOOD_WOOL = registerBlock("wood_wool",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
+
+
+    public static final RegistryObject<Block> DIRT_WITH_ANDESITE_FERTILIZER = registerBlock("dirt_with_andesite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_CLAY_FERTILIZER = registerBlock("dirt_with_clay_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_COAL_FERTILIZER = registerBlock("dirt_with_coal_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_COBBLESTONE_FERTILIZER = registerBlock("dirt_with_cobblestone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_DIAMOND_FERTILIZER = registerBlock("dirt_with_diamond_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_DIORITE_FERTILIZER = registerBlock("dirt_with_diorite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_DIRT_FERTILIZER = registerBlock("dirt_with_dirt_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_EMERALD_FERTILIZER = registerBlock("dirt_with_emerald_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_GLOWSTONE_FERTILIZER = registerBlock("dirt_with_glowstone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_GOLD_FERTILIZER = registerBlock("dirt_with_gold_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_GRANITE_FERTILIZER = registerBlock("dirt_with_granite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_GRAVEL_FERTILIZER = registerBlock("dirt_with_gravel_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_ICE_FERTILIZER = registerBlock("dirt_with_ice_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_IRON_FERTILIZER = registerBlock("dirt_with_iron_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_LAPIS_FERTILIZER = registerBlock("dirt_with_lapis_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_NETHERITE_FERTILIZER = registerBlock("dirt_with_netherite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_NETHERRACK_FERTILIZER = registerBlock("dirt_with_netherrack_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_OBSIDIAN_FERTILIZER = registerBlock("dirt_with_obsidian_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_PRISMARINE_FERTILIZER = registerBlock("dirt_with_prismarine_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_PRISMARINE_SHARD_FERTILIZER = registerBlock("dirt_with_prismarine_shard_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_PUMPKIN_FERTILIZER = registerBlock("dirt_with_pumpkin_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_QUARTZ_FERTILIZER = registerBlock("dirt_with_quartz_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_REDSTONE_FERTILIZER = registerBlock("dirt_with_redstone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_SAND_FERTILIZER = registerBlock("dirt_with_sand_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_SLIME_FERTILIZER = registerBlock("dirt_with_slime_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_SOULSAND_FERTILIZER = registerBlock("dirt_with_soulsand_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> DIRT_WITH_WOOD_FERTILIZER = registerBlock("dirt_with_wood_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+
+
+
 
     public static final RegistryObject<Block> CARDING_TABLE = registerBlock("carding_table",
             () -> new CardingTable(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB).noOcclusion()));

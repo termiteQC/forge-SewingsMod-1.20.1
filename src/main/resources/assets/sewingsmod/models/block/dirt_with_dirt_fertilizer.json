@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "sewingsmod:block/dirt_with_dirt_fertilizer"
+  }
+}

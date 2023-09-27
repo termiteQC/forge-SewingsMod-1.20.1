@@ -14,9 +14,9 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SewingsMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> SEWINGSMOD_TAB = CREATIVE_MODE_TABS.register("sewingsmod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DIAMOND_BALL_OF_YARN.get()))
-                    .title(Component.translatable("creativetab.sewingsmod_tab"))
+    public static final RegistryObject<CreativeModeTab> SEWINGSMOD_WOOLS_TAB = CREATIVE_MODE_TABS.register("sewingsmod_wools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DIAMOND_WOOL.get()))
+                    .title(Component.translatable("creativetab.sewingsmod_wools_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModBlocks.ANDESITE_WOOL.get());
@@ -101,7 +101,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WOOD_STRING.get());
                         pOutput.accept(ModItems.WOOD_BALL_OF_YARN.get());
 
-
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> SEWINGSMOD_ADVANCED_TAB = CREATIVE_MODE_TABS.register("sewingsmod_advanced_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NETHERITE_SHEARS.get()))
+                    .title(Component.translatable("creativetab.sewingsmod_advanced_tab"))
+                    .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.WOOD_SHEARS.get());
                         pOutput.accept(ModItems.GOLD_SHEARS.get());
                         pOutput.accept(ModItems.EMERALD_SHEARS.get());
@@ -112,11 +117,45 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.CARDING_TABLE.get());
                         pOutput.accept(ModBlocks.SEWINGS_MACHINE.get());
                         pOutput.accept(ModBlocks.WINDER_POLE.get());
-
                     })
                     .build());
 
 
+    public static final RegistryObject<CreativeModeTab> SEWINGSMOD_GRASS_TAB = CREATIVE_MODE_TABS.register("sewingsmod_grass_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DIRT_WITH_DIAMOND_FERTILIZER.get()))
+                    .title(Component.translatable("creativetab.sewingsmod_grass_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.DIRT_WITH_ANDESITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_CLAY_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_COAL_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_COBBLESTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_DIAMOND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_DIORITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_DIRT_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_EMERALD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_GLOWSTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_GOLD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_GRANITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_GRAVEL_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_ICE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_IRON_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_LAPIS_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_NETHERITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_NETHERRACK_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_OBSIDIAN_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_PRISMARINE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_PRISMARINE_SHARD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_PUMPKIN_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_QUARTZ_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_REDSTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_SAND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_SLIME_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_SOULSAND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.DIRT_WITH_WOOD_FERTILIZER.get());
+
+
+                    })
+                    .build());
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
