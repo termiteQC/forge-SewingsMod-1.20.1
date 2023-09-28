@@ -1,6 +1,7 @@
 package net.termiteqc.sewingsmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,6 +13,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.termiteqc.sewingsmod.block.ModBlocks;
+import net.termiteqc.sewingsmod.entity.ModEntities;
+import net.termiteqc.sewingsmod.entity.renderer.DiamondSheepRenderer;
 import net.termiteqc.sewingsmod.item.ModCreativeModTabs;
 import net.termiteqc.sewingsmod.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +32,8 @@ public class SewingsMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -173,6 +173,12 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
     public static final RegistryObject<Item> WOOD_STRING = ITEMS.register("wood_string",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ANDESITE_FERTILIZER = ITEMS.register("andesite_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_CRAFTING_STAR = ITEMS.register("andesite_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_ANDESITE_CRAFTING_STAR = ITEMS.register("supra_andesite_crafting_star",
+            () -> new Item(new Item.Properties()));
 
 
 
@@ -189,6 +195,9 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
             () -> new ShearsItem(new Item.Properties().durability(1001)));
     public static final RegistryObject<Item> NETHERITE_SHEARS = ITEMS.register("netherite_shears",
             () -> new ShearsItem(new Item.Properties().durability(2577)));
+
+    public static final RegistryObject<Item> SUPRA_BLUE_EMERALD = ITEMS.register("supra_blue_emerald",
+            () -> new Item(new Item.Properties()));
 
 
 

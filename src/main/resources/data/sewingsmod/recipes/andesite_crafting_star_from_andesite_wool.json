@@ -2,20 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
-    },
-
-    "&": {
-      "item": "minecraft:smooth_stone_slab"
+      "item": "sewingsmod:andesite_wool"
     }
+
+
   },
   "pattern": [
-    "&&&",
     "# #",
+    " # ",
     "# #"
   ],
   "result": {
-    "item": "sewingsmod:carding_table"
+    "item": "sewingsmod:andesite_crafting_star"
   },
   "show_notification": true
 }

@@ -4,125 +4,177 @@
   "block.sewingsmod.andesite_wool": "Andesite Wool",
   "block.sewingsmod.dirt_with_andesite_fertilizer": "Dirt With Andesite Fertilizer",
 
+  "item.sewingsmod.andesite_fertilizer": "Andesite Fertilizer",
+  "item.sewingsmod.andesite_crafting_star": "Andesite Crafting Star",
+  "item.sewingsmod.supra_andesite_crafting_star": "Supra Andesite Crafting Star",
+
   "item.sewingsmod.clay_string": "Clay String",
   "item.sewingsmod.clay_ball_of_yarn": "Clay Ball Of Yarn",
   "block.sewingsmod.clay_wool": "Clay Wool",
   "block.sewingsmod.dirt_with_clay_fertilizer": "Dirt With Clay Fertilizer",
+
+
 
   "item.sewingsmod.coal_string": "Coal String",
   "item.sewingsmod.coal_ball_of_yarn": "Coal Ball Of Yarn",
   "block.sewingsmod.coal_wool": "Coal Wool",
   "block.sewingsmod.dirt_with_coal_fertilizer": "Dirt With Coal Fertilizer",
 
+
+
   "item.sewingsmod.cobblestone_string": "Cobblestone String",
   "item.sewingsmod.cobblestone_ball_of_yarn": "Cobblestone Ball Of Yarn",
   "block.sewingsmod.cobblestone_wool": "Cobblestone Wool",
   "block.sewingsmod.dirt_with_cobblestone_fertilizer": "Dirt With Cobblestone Fertilizer",
+
+
 
   "item.sewingsmod.diamond_string": "Diamond String",
   "item.sewingsmod.diamond_ball_of_yarn": "Diamond Ball Of Yarn",
   "block.sewingsmod.diamond_wool": "Diamond Wool",
   "block.sewingsmod.dirt_with_diamond_fertilizer": "Dirt With Diamond Fertilizer",
 
+
+
   "item.sewingsmod.diorite_string": "Diorite String",
   "item.sewingsmod.diorite_ball_of_yarn": "Diorite Ball Of Yarn",
   "block.sewingsmod.diorite_wool": "Diorite Wool",
   "block.sewingsmod.dirt_with_diorite_fertilizer": "Dirt With Diorite Fertilizer",
+
+
 
   "item.sewingsmod.dirt_string": "Dirt String",
   "item.sewingsmod.dirt_ball_of_yarn": "Dirt Ball Of Yarn",
   "block.sewingsmod.dirt_wool": "Dirt Wool",
   "block.sewingsmod.dirt_with_dirt_fertilizer": "Dirt With Dirt Fertilizer",
 
+
+
   "item.sewingsmod.emerald_string": "Emerald String",
   "item.sewingsmod.emerald_ball_of_yarn": "Emerald Ball Of Yarn",
   "block.sewingsmod.emerald_wool": "Emerald Wool",
   "block.sewingsmod.dirt_with_emerald_fertilizer": "Dirt With Emerald Fertilizer",
+
+
 
   "item.sewingsmod.glowstone_string": "Glowstone String",
   "item.sewingsmod.glowstone_ball_of_yarn": "Glowstone Ball Of Yarn",
   "block.sewingsmod.glowstone_wool": "Glowstone Wool",
   "block.sewingsmod.dirt_with_glowstone_fertilizer": "Dirt With Glowstone Fertilizer",
 
+
+
   "item.sewingsmod.gold_string": "Gold String",
   "item.sewingsmod.gold_ball_of_yarn": "Gold Ball Of Yarn",
   "block.sewingsmod.gold_wool": "Gold Wool",
   "block.sewingsmod.dirt_with_gold_fertilizer": "Dirt With Gold Fertilizer",
+
+
 
   "item.sewingsmod.granite_string": "Granite String",
   "item.sewingsmod.granite_ball_of_yarn": "Granite Ball Of Yarn",
   "block.sewingsmod.granite_wool": "Granite Wool",
   "block.sewingsmod.dirt_with_granite_fertilizer": "Dirt With Granite Fertilizer",
 
+
+
   "item.sewingsmod.gravel_string": "Gravel String",
   "item.sewingsmod.gravel_ball_of_yarn": "Gravel Ball Of Yarn",
   "block.sewingsmod.gravel_wool": "Gravel Wool",
   "block.sewingsmod.dirt_with_gravel_fertilizer": "Dirt With Gravel Fertilizer",
+
+
 
   "item.sewingsmod.ice_string": "Ice String",
   "item.sewingsmod.ice_ball_of_yarn": "Ice Ball Of Yarn",
   "block.sewingsmod.ice_wool": "Ice Wool",
   "block.sewingsmod.dirt_with_ice_fertilizer": "Dirt With Ice Fertilizer",
 
+
+
   "item.sewingsmod.iron_string": "Iron String",
   "item.sewingsmod.iron_ball_of_yarn": "Iron Ball Of Yarn",
   "block.sewingsmod.iron_wool": "Iron Wool",
   "block.sewingsmod.dirt_with_iron_fertilizer": "Dirt With Iron Fertilizer",
+
+
 
   "item.sewingsmod.lapis_string": "Lapis String",
   "item.sewingsmod.lapis_ball_of_yarn": "Lapis Ball Of Yarn",
   "block.sewingsmod.lapis_wool": "Lapis Wool",
   "block.sewingsmod.dirt_with_lapis_fertilizer": "Dirt With Lapis Fertilizer",
 
+
+
   "item.sewingsmod.netherite_string": "Netherite String",
   "item.sewingsmod.netherite_ball_of_yarn": "Netherite Ball Of Yarn",
   "block.sewingsmod.netherite_wool": "Netherite Wool",
   "block.sewingsmod.dirt_with_netherite_fertilizer": "Dirt With Netherite Fertilizer",
+
+
 
   "item.sewingsmod.netherrack_string": "Netherrack String",
   "item.sewingsmod.netherrack_ball_of_yarn": "Netherrack Ball Of Yarn",
   "block.sewingsmod.netherrack_wool": "Netherrack Wool",
   "block.sewingsmod.dirt_with_netherrack_fertilizer": "Dirt With Netherrack Fertilizer",
 
+
+
   "item.sewingsmod.obsidian_string": "Obsidian String",
   "item.sewingsmod.obsidian_ball_of_yarn": "Obsidian Ball Of Yarn",
   "block.sewingsmod.obsidian_wool": "Obsidian Wool",
   "block.sewingsmod.dirt_with_obsidian_fertilizer": "Dirt With Obsidian Fertilizer",
+
+
 
   "item.sewingsmod.prismarine_string": "Prismarine String",
   "item.sewingsmod.prismarine_ball_of_yarn": "Prismarine Ball Of Yarn",
   "block.sewingsmod.prismarine_wool": "Prismarine Wool",
   "block.sewingsmod.dirt_with_prismarine_fertilizer": "Dirt With Prismarine Fertilizer",
 
+
+
   "item.sewingsmod.prismarine_shard_string": "Prismarine Shard String",
   "item.sewingsmod.prismarine_shard_ball_of_yarn": "Prismarine Shard Ball Of Yarn",
   "block.sewingsmod.prismarine_shard_wool": "Prismarine Shard Wool",
   "block.sewingsmod.dirt_with_prismarine_shard_fertilizer": "Dirt With Prismarine Shard Fertilizer",
+
+
 
   "item.sewingsmod.pumpkin_string": "Pumpkin String",
   "item.sewingsmod.pumpkin_ball_of_yarn": "Pumpkin Ball Of Yarn",
   "block.sewingsmod.pumpkin_wool": "Pumpkin Wool",
   "block.sewingsmod.dirt_with_pumpkin_fertilizer": "Dirt With Pumpkin Fertilizer",
 
+
+
   "item.sewingsmod.quartz_string": "Quartz String",
   "item.sewingsmod.quartz_ball_of_yarn": "Quartz Ball Of Yarn",
   "block.sewingsmod.quartz_wool": "Quartz Wool",
   "block.sewingsmod.dirt_with_quartz_fertilizer": "Dirt With Quartz Fertilizer",
+
+
 
   "item.sewingsmod.redstone_string": "Redstone String",
   "item.sewingsmod.redstone_ball_of_yarn": "Redstone Ball Of Yarn",
   "block.sewingsmod.redstone_wool": "Redstone Wool",
   "block.sewingsmod.dirt_with_redstone_fertilizer": "Dirt With Redstone Fertilizer",
 
+
+
   "item.sewingsmod.sand_string": "Sand String",
   "item.sewingsmod.sand_ball_of_yarn": "Sand Ball Of Yarn",
   "block.sewingsmod.sand_wool": "Sand Wool",
   "block.sewingsmod.dirt_with_sand_fertilizer": "Dirt With Sand Fertilizer",
 
+
+
   "item.sewingsmod.slime_string": "Slime String",
   "item.sewingsmod.slime_ball_of_yarn": "Slime Ball Of Yarn",
   "block.sewingsmod.slime_wool": "Slime Wool",
   "block.sewingsmod.dirt_with_slime_fertilizer": "Dirt With Slime Fertilizer",
+
+
 
   "item.sewingsmod.soulsand_string": "Soulsand String",
   "item.sewingsmod.soulsand_ball_of_yarn": "Soulsand Ball Of Yarn",
@@ -130,10 +182,14 @@
   "block.sewingsmod.dirt_with_soulsand_fertilizer": "Dirt With Soulsand Fertilizer",
 
 
+
+
   "item.sewingsmod.wood_string": "Wood String",
   "item.sewingsmod.wood_ball_of_yarn": "Wood Ball Of Yarn",
   "block.sewingsmod.wood_wool": "Wood Wool",
   "block.sewingsmod.dirt_with_wood_fertilizer": "Dirt With Wood Fertilizer",
+
+
 
 
 
@@ -149,6 +205,10 @@
   "block.sewingsmod.carding_table": "Carding Table",
   "block.sewingsmod.sewings_machine": "Sewings Machine",
   "block.sewingsmod.winder_pole": "Winder Pole",
+
+
+
+  "item.sewingsmod.supra_blue_emerald": "Supra Blue Emerald",
 
 
 

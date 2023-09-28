@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:leather"
     },
-
     "&": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:string"
     }
+
   },
   "pattern": [
-    " & ",
-    "#&&",
-    "## "
+    "&#&",
+    "# #",
+    "###"
   ],
   "result": {
-    "item": "sewingsmod:diamond_shears"
+    "item": "minecraft:bundle"
   },
   "show_notification": true
 }

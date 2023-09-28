@@ -2,20 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:blue_dye"
     },
-
     "&": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:emerald"
     }
+
+
   },
   "pattern": [
-    " & ",
-    "#&&",
-    "## "
+    "###",
+    "#&#",
+    "###"
   ],
   "result": {
-    "item": "sewingsmod:diamond_shears"
+    "item": "sewingsmod:supra_blue_emerald"
   },
   "show_notification": true
 }

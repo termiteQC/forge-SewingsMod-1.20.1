@@ -2,20 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "sewingsmod:andesite_fertilizer"
     },
 
     "&": {
-      "item": "minecraft:smooth_stone_slab"
+      "item": "minecraft:dirt"
     }
   },
   "pattern": [
     "&&&",
-    "# #",
-    "# #"
+    "&#&",
+    "&&&"
   ],
   "result": {
-    "item": "sewingsmod:carding_table"
+    "count": 8,
+    "item": "sewingsmod:dirt_with_andesite_fertilizer"
   },
   "show_notification": true
 }

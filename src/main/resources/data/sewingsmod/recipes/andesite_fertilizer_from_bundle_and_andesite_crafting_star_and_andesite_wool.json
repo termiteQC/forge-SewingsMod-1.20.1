@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "sewingsmod:andesite_wool"
+    },
+
+    "&": {
+      "item": "minecraft:bundle"
+    },
+
+    "$": {
+      "item": "sewingsmod:andesite_crafting_star"
+    }
+
+  },
+  "pattern": [
+    "#$#",
+    "#&#",
+    "#$#"
+  ],
+  "result": {
+    "item": "sewingsmod:andesite_fertilizer"
+  },
+  "show_notification": true
+}
