@@ -1,7 +1,22 @@
+
 {
   "variants": {
-    "": {
-      "model": "sewingsmod:block/dirt_with_granite_fertilizer"
-    }
+    "": [
+      {
+        "model": "sewingsmod:block/dirt_with_granite_fertilizer"
+      },
+      {
+        "model": "sewingsmod:block/dirt_with_granite_fertilizer",
+        "y": 90
+      },
+      {
+        "model": "sewingsmod:block/dirt_with_granite_fertilizer",
+        "y": 180
+      },
+      {
+        "model": "sewingsmod:block/dirt_with_granite_fertilizer",
+        "y": 270
+      }
+    ]
   }
 }

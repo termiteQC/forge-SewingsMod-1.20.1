@@ -3,7 +3,7 @@
   "item.sewingsmod.andesite_ball_of_yarn": "Andesite Ball Of Yarn",
   "block.sewingsmod.andesite_wool": "Andesite Wool",
   "block.sewingsmod.dirt_with_andesite_fertilizer": "Dirt With Andesite Fertilizer",
-
+  "block.sewingsmod.grass_with_andesite_fertilizer": "Grass With Andesite Fertilizer",
   "item.sewingsmod.andesite_fertilizer": "Andesite Fertilizer",
   "item.sewingsmod.andesite_crafting_star": "Andesite Crafting Star",
   "item.sewingsmod.supra_andesite_crafting_star": "Supra Andesite Crafting Star",
@@ -12,6 +12,10 @@
   "item.sewingsmod.clay_ball_of_yarn": "Clay Ball Of Yarn",
   "block.sewingsmod.clay_wool": "Clay Wool",
   "block.sewingsmod.dirt_with_clay_fertilizer": "Dirt With Clay Fertilizer",
+  "block.sewingsmod.grass_with_clay_fertilizer": "Grass With Clay Fertilizer",
+  "item.sewingsmod.clay_fertilizer": "Clay Fertilizer",
+  "item.sewingsmod.clay_crafting_star": "Clay Crafting Star",
+  "item.sewingsmod.supra_clay_crafting_star": "Supra Clay Crafting Star",
 
 
 
@@ -19,6 +23,10 @@
   "item.sewingsmod.coal_ball_of_yarn": "Coal Ball Of Yarn",
   "block.sewingsmod.coal_wool": "Coal Wool",
   "block.sewingsmod.dirt_with_coal_fertilizer": "Dirt With Coal Fertilizer",
+  "block.sewingsmod.grass_with_coal_fertilizer": "Grass With Coal Fertilizer",
+  "item.sewingsmod.coal_fertilizer": "Coal Fertilizer",
+  "item.sewingsmod.coal_crafting_star": "Coal Crafting Star",
+  "item.sewingsmod.supra_coal_crafting_star": "Supra Coal Crafting Star",
 
 
 
@@ -26,6 +34,10 @@
   "item.sewingsmod.cobblestone_ball_of_yarn": "Cobblestone Ball Of Yarn",
   "block.sewingsmod.cobblestone_wool": "Cobblestone Wool",
   "block.sewingsmod.dirt_with_cobblestone_fertilizer": "Dirt With Cobblestone Fertilizer",
+  "block.sewingsmod.grass_with_cobblestone_fertilizer": "Grass With Cobblestone Fertilizer",
+  "item.sewingsmod.cobblestone_fertilizer": "Cobblestone Fertilizer",
+  "item.sewingsmod.cobblestone_crafting_star": "Cobblestone Crafting Star",
+  "item.sewingsmod.supra_cobblestone_crafting_star": "Supra Cobblestone Crafting Star",
 
 
 
@@ -33,6 +45,10 @@
   "item.sewingsmod.diamond_ball_of_yarn": "Diamond Ball Of Yarn",
   "block.sewingsmod.diamond_wool": "Diamond Wool",
   "block.sewingsmod.dirt_with_diamond_fertilizer": "Dirt With Diamond Fertilizer",
+  "block.sewingsmod.grass_with_diamond_fertilizer": "Grass With Diamond Fertilizer",
+  "item.sewingsmod.diamond_fertilizer": "Diamond Fertilizer",
+  "item.sewingsmod.diamond_crafting_star": "Diamond Crafting Star",
+  "item.sewingsmod.supra_diamond_crafting_star": "Supra Diamond Crafting Star",
 
 
 
@@ -40,6 +56,10 @@
   "item.sewingsmod.diorite_ball_of_yarn": "Diorite Ball Of Yarn",
   "block.sewingsmod.diorite_wool": "Diorite Wool",
   "block.sewingsmod.dirt_with_diorite_fertilizer": "Dirt With Diorite Fertilizer",
+  "block.sewingsmod.grass_with_diorite_fertilizer": "Grass With Diorite Fertilizer",
+  "item.sewingsmod.diorite_fertilizer": "Diorite Fertilizer",
+  "item.sewingsmod.diorite_crafting_star": "Diorite Crafting Star",
+  "item.sewingsmod.supra_diorite_crafting_star": "Supra Diorite Crafting Star",
 
 
 
@@ -47,6 +67,10 @@
   "item.sewingsmod.dirt_ball_of_yarn": "Dirt Ball Of Yarn",
   "block.sewingsmod.dirt_wool": "Dirt Wool",
   "block.sewingsmod.dirt_with_dirt_fertilizer": "Dirt With Dirt Fertilizer",
+  "block.sewingsmod.grass_with_dirt_fertilizer": "Grass With Dirt Fertilizer",
+  "item.sewingsmod.dirt_fertilizer": "Dirt Fertilizer",
+  "item.sewingsmod.dirt_crafting_star": "Dirt Crafting Star",
+  "item.sewingsmod.supra_dirt_crafting_star": "Supra Dirt Crafting Star",
 
 
 
@@ -54,6 +78,10 @@
   "item.sewingsmod.emerald_ball_of_yarn": "Emerald Ball Of Yarn",
   "block.sewingsmod.emerald_wool": "Emerald Wool",
   "block.sewingsmod.dirt_with_emerald_fertilizer": "Dirt With Emerald Fertilizer",
+  "block.sewingsmod.grass_with_emerald_fertilizer": "Grass With Emerald Fertilizer",
+  "item.sewingsmod.emerald_fertilizer": "Emerald Fertilizer",
+  "item.sewingsmod.emerald_crafting_star": "Emerald Crafting Star",
+  "item.sewingsmod.supra_emerald_crafting_star": "Supra Emerald Crafting Star",
 
 
 
@@ -61,6 +89,10 @@
   "item.sewingsmod.glowstone_ball_of_yarn": "Glowstone Ball Of Yarn",
   "block.sewingsmod.glowstone_wool": "Glowstone Wool",
   "block.sewingsmod.dirt_with_glowstone_fertilizer": "Dirt With Glowstone Fertilizer",
+  "block.sewingsmod.grass_with_glowstone_fertilizer": "Grass With Glowstone Fertilizer",
+  "item.sewingsmod.glowstone_fertilizer": "Glowstone Fertilizer",
+  "item.sewingsmod.glowstone_crafting_star": "Glowstone Crafting Star",
+  "item.sewingsmod.supra_glowstone_crafting_star": "Supra Glowstone Crafting Star",
 
 
 
@@ -68,6 +100,10 @@
   "item.sewingsmod.gold_ball_of_yarn": "Gold Ball Of Yarn",
   "block.sewingsmod.gold_wool": "Gold Wool",
   "block.sewingsmod.dirt_with_gold_fertilizer": "Dirt With Gold Fertilizer",
+  "block.sewingsmod.grass_with_gold_fertilizer": "Grass With Gold Fertilizer",
+  "item.sewingsmod.gold_fertilizer": "Gold Fertilizer",
+  "item.sewingsmod.gold_crafting_star": "Gold Crafting Star",
+  "item.sewingsmod.supra_gold_crafting_star": "Supra Gold Crafting Star",
 
 
 
@@ -75,6 +111,10 @@
   "item.sewingsmod.granite_ball_of_yarn": "Granite Ball Of Yarn",
   "block.sewingsmod.granite_wool": "Granite Wool",
   "block.sewingsmod.dirt_with_granite_fertilizer": "Dirt With Granite Fertilizer",
+  "block.sewingsmod.grass_with_granite_fertilizer": "Grass With Granite Fertilizer",
+  "item.sewingsmod.granite_fertilizer": "Granite Fertilizer",
+  "item.sewingsmod.granite_crafting_star": "Granite Crafting Star",
+  "item.sewingsmod.supra_granite_crafting_star": "Supra Granite Crafting Star",
 
 
 
@@ -82,6 +122,10 @@
   "item.sewingsmod.gravel_ball_of_yarn": "Gravel Ball Of Yarn",
   "block.sewingsmod.gravel_wool": "Gravel Wool",
   "block.sewingsmod.dirt_with_gravel_fertilizer": "Dirt With Gravel Fertilizer",
+  "block.sewingsmod.grass_with_gravel_fertilizer": "Grass With Gravel Fertilizer",
+  "item.sewingsmod.gravel_fertilizer": "Gravel Fertilizer",
+  "item.sewingsmod.gravel_crafting_star": "Gravel Crafting Star",
+  "item.sewingsmod.supra_gravel_crafting_star": "Supra Gravel Crafting Star",
 
 
 
@@ -89,6 +133,10 @@
   "item.sewingsmod.ice_ball_of_yarn": "Ice Ball Of Yarn",
   "block.sewingsmod.ice_wool": "Ice Wool",
   "block.sewingsmod.dirt_with_ice_fertilizer": "Dirt With Ice Fertilizer",
+  "block.sewingsmod.grass_with_ice_fertilizer": "Grass With Ice Fertilizer",
+  "item.sewingsmod.ice_fertilizer": "Ice Fertilizer",
+  "item.sewingsmod.ice_crafting_star": "Ice Crafting Star",
+  "item.sewingsmod.supra_ice_crafting_star": "Supra Ice Crafting Star",
 
 
 
@@ -96,6 +144,10 @@
   "item.sewingsmod.iron_ball_of_yarn": "Iron Ball Of Yarn",
   "block.sewingsmod.iron_wool": "Iron Wool",
   "block.sewingsmod.dirt_with_iron_fertilizer": "Dirt With Iron Fertilizer",
+  "block.sewingsmod.grass_with_iron_fertilizer": "Grass With Iron Fertilizer",
+  "item.sewingsmod.iron_fertilizer": "Iron Fertilizer",
+  "item.sewingsmod.iron_crafting_star": "Iron Crafting Star",
+  "item.sewingsmod.supra_iron_crafting_star": "Supra Iron Crafting Star",
 
 
 
@@ -103,6 +155,10 @@
   "item.sewingsmod.lapis_ball_of_yarn": "Lapis Ball Of Yarn",
   "block.sewingsmod.lapis_wool": "Lapis Wool",
   "block.sewingsmod.dirt_with_lapis_fertilizer": "Dirt With Lapis Fertilizer",
+  "block.sewingsmod.grass_with_lapis_fertilizer": "Grass With Lapis Fertilizer",
+  "item.sewingsmod.lapis_fertilizer": "Lapis Fertilizer",
+  "item.sewingsmod.lapis_crafting_star": "Lapis Crafting Star",
+  "item.sewingsmod.supra_lapis_crafting_star": "Supra Lapis Crafting Star",
 
 
 
@@ -110,6 +166,10 @@
   "item.sewingsmod.netherite_ball_of_yarn": "Netherite Ball Of Yarn",
   "block.sewingsmod.netherite_wool": "Netherite Wool",
   "block.sewingsmod.dirt_with_netherite_fertilizer": "Dirt With Netherite Fertilizer",
+  "block.sewingsmod.grass_with_netherite_fertilizer": "Grass With Netherite Fertilizer",
+  "item.sewingsmod.netherite_fertilizer": "Netherite Fertilizer",
+  "item.sewingsmod.netherite_crafting_star": "Netherite Crafting Star",
+  "item.sewingsmod.supra_netherite_crafting_star": "Supra Netherite Crafting Star",
 
 
 
@@ -117,6 +177,10 @@
   "item.sewingsmod.netherrack_ball_of_yarn": "Netherrack Ball Of Yarn",
   "block.sewingsmod.netherrack_wool": "Netherrack Wool",
   "block.sewingsmod.dirt_with_netherrack_fertilizer": "Dirt With Netherrack Fertilizer",
+  "block.sewingsmod.grass_with_netherrack_fertilizer": "Grass With Netherrack Fertilizer",
+  "item.sewingsmod.netherrack_fertilizer": "Netherrack Fertilizer",
+  "item.sewingsmod.netherrack_crafting_star": "Netherrack Crafting Star",
+  "item.sewingsmod.supra_netherrack_crafting_star": "Supra Netherrack Crafting Star",
 
 
 
@@ -124,6 +188,10 @@
   "item.sewingsmod.obsidian_ball_of_yarn": "Obsidian Ball Of Yarn",
   "block.sewingsmod.obsidian_wool": "Obsidian Wool",
   "block.sewingsmod.dirt_with_obsidian_fertilizer": "Dirt With Obsidian Fertilizer",
+  "block.sewingsmod.grass_with_obsidian_fertilizer": "Grass With Obsidian Fertilizer",
+  "item.sewingsmod.obsidian_fertilizer": "Obsidian Fertilizer",
+  "item.sewingsmod.obsidian_crafting_star": "Obsidian Crafting Star",
+  "item.sewingsmod.supra_obsidian_crafting_star": "Supra Obsidian Crafting Star",
 
 
 
@@ -131,6 +199,10 @@
   "item.sewingsmod.prismarine_ball_of_yarn": "Prismarine Ball Of Yarn",
   "block.sewingsmod.prismarine_wool": "Prismarine Wool",
   "block.sewingsmod.dirt_with_prismarine_fertilizer": "Dirt With Prismarine Fertilizer",
+  "block.sewingsmod.grass_with_prismarine_fertilizer": "Grass With Prismarine Fertilizer",
+  "item.sewingsmod.prismarine_fertilizer": "Prismarine Fertilizer",
+  "item.sewingsmod.prismarine_crafting_star": "Prismarine Crafting Star",
+  "item.sewingsmod.supra_prismarine_crafting_star": "Supra Prismarine Crafting Star",
 
 
 
@@ -138,6 +210,10 @@
   "item.sewingsmod.prismarine_shard_ball_of_yarn": "Prismarine Shard Ball Of Yarn",
   "block.sewingsmod.prismarine_shard_wool": "Prismarine Shard Wool",
   "block.sewingsmod.dirt_with_prismarine_shard_fertilizer": "Dirt With Prismarine Shard Fertilizer",
+  "block.sewingsmod.grass_with_prismarine_shard_fertilizer": "Grass With Prismarine Shard Fertilizer",
+  "item.sewingsmod.prismarine_shard_fertilizer": "Prismarine Shard Fertilizer",
+  "item.sewingsmod.prismarine_shard_crafting_star": "Prismarine Shard Crafting Star",
+  "item.sewingsmod.supra_prismarine_shard_crafting_star": "Supra Prismarine Shard Crafting Star",
 
 
 
@@ -145,6 +221,10 @@
   "item.sewingsmod.pumpkin_ball_of_yarn": "Pumpkin Ball Of Yarn",
   "block.sewingsmod.pumpkin_wool": "Pumpkin Wool",
   "block.sewingsmod.dirt_with_pumpkin_fertilizer": "Dirt With Pumpkin Fertilizer",
+  "block.sewingsmod.grass_with_pumpkin_fertilizer": "Grass With Pumpkin Fertilizer",
+  "item.sewingsmod.pumpkin_fertilizer": "Pumpkin Fertilizer",
+  "item.sewingsmod.pumpkin_crafting_star": "Pumpkin Crafting Star",
+  "item.sewingsmod.supra_pumpkin_crafting_star": "Supra Pumpkin Crafting Star",
 
 
 
@@ -152,6 +232,10 @@
   "item.sewingsmod.quartz_ball_of_yarn": "Quartz Ball Of Yarn",
   "block.sewingsmod.quartz_wool": "Quartz Wool",
   "block.sewingsmod.dirt_with_quartz_fertilizer": "Dirt With Quartz Fertilizer",
+  "block.sewingsmod.grass_with_quartz_fertilizer": "Grass With Quartz Fertilizer",
+  "item.sewingsmod.quartz_fertilizer": "Quartz Fertilizer",
+  "item.sewingsmod.quartz_crafting_star": "Quartz Crafting Star",
+  "item.sewingsmod.supra_quartz_crafting_star": "Supra Quartz Crafting Star",
 
 
 
@@ -159,6 +243,10 @@
   "item.sewingsmod.redstone_ball_of_yarn": "Redstone Ball Of Yarn",
   "block.sewingsmod.redstone_wool": "Redstone Wool",
   "block.sewingsmod.dirt_with_redstone_fertilizer": "Dirt With Redstone Fertilizer",
+  "block.sewingsmod.grass_with_redstone_fertilizer": "Grass With Redstone Fertilizer",
+  "item.sewingsmod.redstone_fertilizer": "Redstone Fertilizer",
+  "item.sewingsmod.redstone_crafting_star": "Redstone Crafting Star",
+  "item.sewingsmod.supra_redstone_crafting_star": "Supra Redstone Crafting Star",
 
 
 
@@ -166,6 +254,10 @@
   "item.sewingsmod.sand_ball_of_yarn": "Sand Ball Of Yarn",
   "block.sewingsmod.sand_wool": "Sand Wool",
   "block.sewingsmod.dirt_with_sand_fertilizer": "Dirt With Sand Fertilizer",
+  "block.sewingsmod.grass_with_sand_fertilizer": "Grass With Sand Fertilizer",
+  "item.sewingsmod.sand_fertilizer": "Sand Fertilizer",
+  "item.sewingsmod.sand_crafting_star": "Sand Crafting Star",
+  "item.sewingsmod.supra_sand_crafting_star": "Supra Sand Crafting Star",
 
 
 
@@ -173,6 +265,10 @@
   "item.sewingsmod.slime_ball_of_yarn": "Slime Ball Of Yarn",
   "block.sewingsmod.slime_wool": "Slime Wool",
   "block.sewingsmod.dirt_with_slime_fertilizer": "Dirt With Slime Fertilizer",
+  "block.sewingsmod.grass_with_slime_fertilizer": "Grass With Slime Fertilizer",
+  "item.sewingsmod.slime_fertilizer": "Slime Fertilizer",
+  "item.sewingsmod.slime_crafting_star": "Slime Crafting Star",
+  "item.sewingsmod.supra_slime_crafting_star": "Supra Slime Crafting Star",
 
 
 
@@ -180,6 +276,10 @@
   "item.sewingsmod.soulsand_ball_of_yarn": "Soulsand Ball Of Yarn",
   "block.sewingsmod.soulsand_wool": "Soulsand Wool",
   "block.sewingsmod.dirt_with_soulsand_fertilizer": "Dirt With Soulsand Fertilizer",
+  "block.sewingsmod.grass_with_soulsand_fertilizer": "Grass With Soulsand Fertilizer",
+  "item.sewingsmod.soulsand_fertilizer": "Soulsand Fertilizer",
+  "item.sewingsmod.soulsand_crafting_star": "Soulsand Crafting Star",
+  "item.sewingsmod.supra_soulsand_crafting_star": "Supra Soulsand Crafting Star",
 
 
 
@@ -188,6 +288,10 @@
   "item.sewingsmod.wood_ball_of_yarn": "Wood Ball Of Yarn",
   "block.sewingsmod.wood_wool": "Wood Wool",
   "block.sewingsmod.dirt_with_wood_fertilizer": "Dirt With Wood Fertilizer",
+  "block.sewingsmod.grass_with_wood_fertilizer": "Grass With Wood Fertilizer",
+  "item.sewingsmod.wood_fertilizer": "Wood Fertilizer",
+  "item.sewingsmod.wood_crafting_star": "Wood Crafting Star",
+  "item.sewingsmod.supra_wood_crafting_star": "Supra Wood Crafting Star",
 
 
 

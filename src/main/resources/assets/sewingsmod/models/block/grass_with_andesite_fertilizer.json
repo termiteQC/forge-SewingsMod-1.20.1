@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "sewingsmod:block/dirt_with_andesite_fertilizer",
+    "east": "sewingsmod:block/grass_with_andesite_fertilizer_side",
+    "north": "sewingsmod:block/grass_with_andesite_fertilizer_side",
+    "particle": "sewingsmod:block/grass_with_andesite_fertilizer_side",
+    "south": "sewingsmod:block/grass_with_andesite_fertilizer_side",
+    "up": "sewingsmod:block/grass_with_andesite_fertilizer_top",
+    "west": "sewingsmod:block/grass_with_andesite_fertilizer_side"
+  }
+}

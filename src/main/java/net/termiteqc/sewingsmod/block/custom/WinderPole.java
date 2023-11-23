@@ -27,8 +27,4 @@ public class WinderPole extends Block {
         return InteractionResult.SUCCESS;
     }
 
-    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return Block.box(5.0D, 0.0D, 4.0D, 12.0D, 1.0D, 11.0D);
-    }
-
 }

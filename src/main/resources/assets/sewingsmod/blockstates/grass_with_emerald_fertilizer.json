@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "sewingsmod:block/grass_with_emerald_fertilizer"
+      },
+      {
+        "model": "sewingsmod:block/grass_with_emerald_fertilizer",
+        "y": 90
+      },
+      {
+        "model": "sewingsmod:block/grass_with_emerald_fertilizer",
+        "y": 180
+      },
+      {
+        "model": "sewingsmod:block/grass_with_emerald_fertilizer",
+        "y": 270
+      }
+    ]
+  }
+}

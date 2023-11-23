@@ -134,13 +134,70 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> GRASS_WITH_ANDESITE_FERTILIZER = registerBlock("grass_with_andesite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_CLAY_FERTILIZER = registerBlock("grass_with_clay_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_COAL_FERTILIZER = registerBlock("grass_with_coal_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_COBBLESTONE_FERTILIZER = registerBlock("grass_with_cobblestone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_DIAMOND_FERTILIZER = registerBlock("grass_with_diamond_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_DIORITE_FERTILIZER = registerBlock("grass_with_diorite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_DIRT_FERTILIZER = registerBlock("grass_with_dirt_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_EMERALD_FERTILIZER = registerBlock("grass_with_emerald_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_GLOWSTONE_FERTILIZER = registerBlock("grass_with_glowstone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_GOLD_FERTILIZER = registerBlock("grass_with_gold_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_GRANITE_FERTILIZER = registerBlock("grass_with_granite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_GRAVEL_FERTILIZER = registerBlock("grass_with_gravel_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_ICE_FERTILIZER = registerBlock("grass_with_ice_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_IRON_FERTILIZER = registerBlock("grass_with_iron_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_LAPIS_FERTILIZER = registerBlock("grass_with_lapis_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_NETHERITE_FERTILIZER = registerBlock("grass_with_netherite_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_NETHERRACK_FERTILIZER = registerBlock("grass_with_netherrack_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_OBSIDIAN_FERTILIZER = registerBlock("grass_with_obsidian_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_PRISMARINE_FERTILIZER = registerBlock("grass_with_prismarine_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_PRISMARINE_SHARD_FERTILIZER = registerBlock("grass_with_prismarine_shard_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_PUMPKIN_FERTILIZER = registerBlock("grass_with_pumpkin_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_QUARTZ_FERTILIZER = registerBlock("grass_with_quartz_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_REDSTONE_FERTILIZER = registerBlock("grass_with_redstone_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_SAND_FERTILIZER = registerBlock("grass_with_sand_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_SLIME_FERTILIZER = registerBlock("grass_with_slime_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_SOULSAND_FERTILIZER = registerBlock("grass_with_soulsand_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> GRASS_WITH_WOOD_FERTILIZER = registerBlock("grass_with_wood_fertilizer",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+
+
+
 
     public static final RegistryObject<Block> CARDING_TABLE = registerBlock("carding_table",
             () -> new CardingTable(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB).noOcclusion()));
     public static final RegistryObject<Block> SEWINGS_MACHINE = registerBlock("sewings_machine",
             () -> new SewingsMachine(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> WINDER_POLE = registerBlock("winder_pole",
-            () -> new WinderPole(BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).noOcclusion()));
+            () -> new WinderPole(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

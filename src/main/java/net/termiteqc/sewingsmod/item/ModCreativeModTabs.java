@@ -144,6 +144,83 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SUPRA_ANDESITE_CRAFTING_STAR.get());
                         pOutput.accept(ModItems.ANDESITE_CRAFTING_STAR.get());
 
+                        pOutput.accept(ModItems.SUPRA_CLAY_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.CLAY_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_COAL_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.COAL_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_COBBLESTONE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.COBBLESTONE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_DIAMOND_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.DIAMOND_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_DIORITE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.DIORITE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_DIRT_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.DIRT_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_EMERALD_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.EMERALD_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_GLOWSTONE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.GLOWSTONE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_GOLD_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.GOLD_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_GRANITE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.GRANITE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_GRAVEL_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.GRAVEL_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_ICE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.ICE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_IRON_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.IRON_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_LAPIS_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.LAPIS_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_NETHERITE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.NETHERITE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_NETHERRACK_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.NETHERRACK_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_OBSIDIAN_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.OBSIDIAN_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_PRISMARINE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.PRISMARINE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_PRISMARINE_SHARD_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.PRISMARINE_SHARD_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_PUMPKIN_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.PUMPKIN_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_QUARTZ_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.QUARTZ_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_REDSTONE_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.REDSTONE_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_SAND_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.SAND_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_SLIME_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.SLIME_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_SOULSAND_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.SOULSAND_CRAFTING_STAR.get());
+
+                        pOutput.accept(ModItems.SUPRA_WOOD_CRAFTING_STAR.get());
+                        pOutput.accept(ModItems.WOOD_CRAFTING_STAR.get());
 
                         pOutput.accept(ModItems.SUPRA_BLUE_EMERALD.get());
 
@@ -164,83 +241,137 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.ANDESITE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_ANDESITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_ANDESITE_FERTILIZER.get());
 
+
+                        pOutput.accept(ModItems.CLAY_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_CLAY_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_CLAY_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.COAL_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_COAL_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_COAL_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.COBBLESTONE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_COBBLESTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_COBBLESTONE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.DIAMOND_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_DIAMOND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_DIAMOND_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.DIORITE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_DIORITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_DIORITE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.DIRT_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_DIRT_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_DIRT_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.EMERALD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_EMERALD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_EMERALD_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.GLOWSTONE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_GLOWSTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_GLOWSTONE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.GOLD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_GOLD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_GOLD_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.GRANITE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_GRANITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_GRANITE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.GRAVEL_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_GRAVEL_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_GRAVEL_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.ICE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_ICE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_ICE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.IRON_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_IRON_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_IRON_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.LAPIS_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_LAPIS_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_LAPIS_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.NETHERITE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_NETHERITE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_NETHERITE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.NETHERRACK_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_NETHERRACK_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_NETHERRACK_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.OBSIDIAN_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_OBSIDIAN_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_OBSIDIAN_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.PRISMARINE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_PRISMARINE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_PRISMARINE_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.PRISMARINE_SHARD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_PRISMARINE_SHARD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_PRISMARINE_SHARD_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.PUMPKIN_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_PUMPKIN_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_PUMPKIN_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.QUARTZ_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_QUARTZ_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_QUARTZ_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.REDSTONE_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_REDSTONE_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_REDSTONE_FERTILIZER.get());
 
-
+                        pOutput.accept(ModItems.SAND_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_SAND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_SAND_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.SLIME_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_SLIME_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_SLIME_FERTILIZER.get());
 
 
+                        pOutput.accept(ModItems.SOULSAND_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_SOULSAND_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_SOULSAND_FERTILIZER.get());
 
 
+
+                        pOutput.accept(ModItems.WOOD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_WOOD_FERTILIZER.get());
+                        pOutput.accept(ModBlocks.GRASS_WITH_WOOD_FERTILIZER.get());
 
 
 

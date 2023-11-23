@@ -180,6 +180,192 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
     public static final RegistryObject<Item> SUPRA_ANDESITE_CRAFTING_STAR = ITEMS.register("supra_andesite_crafting_star",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CLAY_FERTILIZER = ITEMS.register("clay_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CLAY_CRAFTING_STAR = ITEMS.register("clay_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_CLAY_CRAFTING_STAR = ITEMS.register("supra_clay_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COAL_FERTILIZER = ITEMS.register("coal_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COAL_CRAFTING_STAR = ITEMS.register("coal_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_COAL_CRAFTING_STAR = ITEMS.register("supra_coal_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COBBLESTONE_FERTILIZER = ITEMS.register("cobblestone_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_CRAFTING_STAR = ITEMS.register("cobblestone_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_COBBLESTONE_CRAFTING_STAR = ITEMS.register("supra_cobblestone_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> DIAMOND_FERTILIZER = ITEMS.register("diamond_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_CRAFTING_STAR = ITEMS.register("diamond_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_DIAMOND_CRAFTING_STAR = ITEMS.register("supra_diamond_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIORITE_FERTILIZER = ITEMS.register("diorite_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIORITE_CRAFTING_STAR = ITEMS.register("diorite_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_DIORITE_CRAFTING_STAR = ITEMS.register("supra_diorite_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIRT_FERTILIZER = ITEMS.register("dirt_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRT_CRAFTING_STAR = ITEMS.register("dirt_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_DIRT_CRAFTING_STAR = ITEMS.register("supra_dirt_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_FERTILIZER = ITEMS.register("emerald_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_CRAFTING_STAR = ITEMS.register("emerald_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_EMERALD_CRAFTING_STAR = ITEMS.register("supra_emerald_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GLOWSTONE_FERTILIZER = ITEMS.register("glowstone_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GLOWSTONE_CRAFTING_STAR = ITEMS.register("glowstone_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_GLOWSTONE_CRAFTING_STAR = ITEMS.register("supra_glowstone_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_FERTILIZER = ITEMS.register("gold_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_CRAFTING_STAR = ITEMS.register("gold_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_GOLD_CRAFTING_STAR = ITEMS.register("supra_gold_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GRANITE_FERTILIZER = ITEMS.register("granite_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRANITE_CRAFTING_STAR = ITEMS.register("granite_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_GRANITE_CRAFTING_STAR = ITEMS.register("supra_granite_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GRAVEL_FERTILIZER = ITEMS.register("gravel_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAVEL_CRAFTING_STAR = ITEMS.register("gravel_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_GRAVEL_CRAFTING_STAR = ITEMS.register("supra_gravel_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ICE_FERTILIZER = ITEMS.register("ice_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ICE_CRAFTING_STAR = ITEMS.register("ice_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_ICE_CRAFTING_STAR = ITEMS.register("supra_ice_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_FERTILIZER = ITEMS.register("iron_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_CRAFTING_STAR = ITEMS.register("iron_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_IRON_CRAFTING_STAR = ITEMS.register("supra_iron_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> LAPIS_FERTILIZER = ITEMS.register("lapis_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_CRAFTING_STAR = ITEMS.register("lapis_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_LAPIS_CRAFTING_STAR = ITEMS.register("supra_lapis_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERITE_FERTILIZER = ITEMS.register("netherite_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_CRAFTING_STAR = ITEMS.register("netherite_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_NETHERITE_CRAFTING_STAR = ITEMS.register("supra_netherite_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERRACK_FERTILIZER = ITEMS.register("netherrack_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERRACK_CRAFTING_STAR = ITEMS.register("netherrack_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_NETHERRACK_CRAFTING_STAR = ITEMS.register("supra_netherrack_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> OBSIDIAN_FERTILIZER = ITEMS.register("obsidian_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_CRAFTING_STAR = ITEMS.register("obsidian_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_OBSIDIAN_CRAFTING_STAR = ITEMS.register("supra_obsidian_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PRISMARINE_FERTILIZER = ITEMS.register("prismarine_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PRISMARINE_CRAFTING_STAR = ITEMS.register("prismarine_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_PRISMARINE_CRAFTING_STAR = ITEMS.register("supra_prismarine_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PRISMARINE_SHARD_FERTILIZER = ITEMS.register("prismarine_shard_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PRISMARINE_SHARD_CRAFTING_STAR = ITEMS.register("prismarine_shard_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_PRISMARINE_SHARD_CRAFTING_STAR = ITEMS.register("supra_prismarine_shard_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PUMPKIN_FERTILIZER = ITEMS.register("pumpkin_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PUMPKIN_CRAFTING_STAR = ITEMS.register("pumpkin_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_PUMPKIN_CRAFTING_STAR = ITEMS.register("supra_pumpkin_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> QUARTZ_FERTILIZER = ITEMS.register("quartz_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> QUARTZ_CRAFTING_STAR = ITEMS.register("quartz_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_QUARTZ_CRAFTING_STAR = ITEMS.register("supra_quartz_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> REDSTONE_FERTILIZER = ITEMS.register("redstone_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_CRAFTING_STAR = ITEMS.register("redstone_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_REDSTONE_CRAFTING_STAR = ITEMS.register("supra_redstone_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SAND_FERTILIZER = ITEMS.register("sand_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SAND_CRAFTING_STAR = ITEMS.register("sand_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_SAND_CRAFTING_STAR = ITEMS.register("supra_sand_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SLIME_FERTILIZER = ITEMS.register("slime_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SLIME_CRAFTING_STAR = ITEMS.register("slime_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_SLIME_CRAFTING_STAR = ITEMS.register("supra_slime_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SOULSAND_FERTILIZER = ITEMS.register("soulsand_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SOULSAND_CRAFTING_STAR = ITEMS.register("soulsand_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_SOULSAND_CRAFTING_STAR = ITEMS.register("supra_soulsand_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WOOD_FERTILIZER = ITEMS.register("wood_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOOD_CRAFTING_STAR = ITEMS.register("wood_crafting_star",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUPRA_WOOD_CRAFTING_STAR = ITEMS.register("supra_wood_crafting_star",
+            () -> new Item(new Item.Properties()));
+
+
+
+
 
 
 
