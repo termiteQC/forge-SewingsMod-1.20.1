@@ -1,6 +1,7 @@
 package net.termiteqc.sewingsmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,8 +13,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.termiteqc.sewingsmod.block.ModBlocks;
+import net.termiteqc.sewingsmod.block.entity.CardingTableBlockEntity;
+import net.termiteqc.sewingsmod.block.entity.ModBlockEntities;
 import net.termiteqc.sewingsmod.item.ModCreativeModTabs;
 import net.termiteqc.sewingsmod.item.ModItems;
+import net.termiteqc.sewingsmod.recipe.ModRecipes;
+import net.termiteqc.sewingsmod.screen.CardingTableScreen;
+import net.termiteqc.sewingsmod.screen.ModMenuTypes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -30,6 +36,11 @@ public class SewingsMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+
+        ModRecipes.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -57,6 +68,8 @@ public class SewingsMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+
+            MenuScreens.register(ModMenuTypes.CARDING_TABLE_MENU.get(), CardingTableScreen::new);
 
         }
     }

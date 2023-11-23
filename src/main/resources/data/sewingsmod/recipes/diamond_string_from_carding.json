@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:carding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:diamond_wool"
+    }
+  ],
+  "output": {
+    "count": 5,
+    "item": "sewingsmod:diamond_string"
+
+  }
+}
