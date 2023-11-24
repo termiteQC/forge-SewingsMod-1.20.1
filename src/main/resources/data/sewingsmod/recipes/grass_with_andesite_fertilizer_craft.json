@@ -7,16 +7,19 @@
 
     "&": {
       "item": "minecraft:dirt"
+    },
+    "$": {
+      "item": "minecraft:grass"
     }
   },
   "pattern": [
-    "&&&",
+    "$$$",
     "&#&",
     "&&&"
   ],
   "result": {
-    "count": 8,
-    "item": "sewingsmod:dirt_with_andesite_fertilizer"
+    "count": 1,
+    "item": "sewingsmod:grass_with_andesite_fertilizer"
   },
   "show_notification": true
 }

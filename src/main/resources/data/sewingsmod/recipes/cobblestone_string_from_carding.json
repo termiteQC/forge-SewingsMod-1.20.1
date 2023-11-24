@@ -2,12 +2,12 @@
   "type": "sewingsmod:carding",
   "ingredients": [
     {
-      "item": "sewingsmod:_wool"
+      "item": "sewingsmod:cobblestone_wool"
     }
   ],
   "output": {
     "count": 5,
-    "item": "sewingsmod:_string"
+    "item": "sewingsmod:cobblestone_string"
 
   }
 }
