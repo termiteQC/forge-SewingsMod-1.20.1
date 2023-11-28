@@ -20,6 +20,8 @@ import net.termiteqc.sewingsmod.item.ModItems;
 import net.termiteqc.sewingsmod.recipe.ModRecipes;
 import net.termiteqc.sewingsmod.screen.CardingTableScreen;
 import net.termiteqc.sewingsmod.screen.ModMenuTypes;
+import net.termiteqc.sewingsmod.screen.SewingsMachineScreen;
+import net.termiteqc.sewingsmod.screen.WinderPoleScreen;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -70,6 +72,8 @@ public class SewingsMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
 
             MenuScreens.register(ModMenuTypes.CARDING_TABLE_MENU.get(), CardingTableScreen::new);
+            MenuScreens.register(ModMenuTypes.SEWINGS_MACHINE_MENU.get(), SewingsMachineScreen::new);
+            MenuScreens.register(ModMenuTypes.WINDER_POLE_MENU.get(), WinderPoleScreen::new);
 
         }
     }

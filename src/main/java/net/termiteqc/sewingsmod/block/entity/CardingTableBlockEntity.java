@@ -15,15 +15,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
-import net.termiteqc.sewingsmod.block.ModBlocks;
-import net.termiteqc.sewingsmod.item.ModItems;
 import net.termiteqc.sewingsmod.recipe.CardingTableRecipe;
 import net.termiteqc.sewingsmod.screen.CardingTableMenu;
 import org.jetbrains.annotations.NotNull;
@@ -46,6 +43,7 @@ public class CardingTableBlockEntity extends BlockEntity implements MenuProvider
     protected final ContainerData data;
     private int progress = 0;
     private int maxProgress = 222;
+
 
 
 
@@ -102,6 +100,7 @@ public class CardingTableBlockEntity extends BlockEntity implements MenuProvider
         SimpleContainer inventory = new SimpleContainer(itemHandler.getSlots());
         for(int i = 0; i < itemHandler.getSlots(); i++) {
             inventory.setItem(i, itemHandler.getStackInSlot(i));
+
         }
 
         Containers.dropContents(this.level, this.worldPosition, inventory);
@@ -183,12 +182,13 @@ public class CardingTableBlockEntity extends BlockEntity implements MenuProvider
     }
 
     private boolean canInsertItemOutputSlot(Item item) {
-        return this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).isEmpty() || this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).is(item);
+        return this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).isEmpty() || this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).is(item) ;
     }
 
     private boolean canInsertAmountIntoOutputSlot(int count) {
-        return this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).getCount() + count <= this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).getMaxStackSize();
+        return this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).getCount() + count <= this.itemHandler.getStackInSlot(OUTPUT_SLOT_0).getMaxStackSize() ;
     }
+
 
 
     private boolean hasProgressFinished() {
@@ -198,6 +198,6 @@ public class CardingTableBlockEntity extends BlockEntity implements MenuProvider
     private void increaseCraftingProgress() {
         progress++;
     }
-    }
+}
 
 

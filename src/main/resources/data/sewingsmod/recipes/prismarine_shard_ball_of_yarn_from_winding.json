@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:prismarine_shard_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:prismarine_shard_ball_of_yarn"
+
+  }
+}

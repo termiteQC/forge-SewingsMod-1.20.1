@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:slime_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:slime_ball_of_yarn"
+
+  }
+}

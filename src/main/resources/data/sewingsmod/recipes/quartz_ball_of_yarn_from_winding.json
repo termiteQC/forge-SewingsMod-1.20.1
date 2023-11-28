@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:quartz_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:quartz_ball_of_yarn"
+
+  }
+}

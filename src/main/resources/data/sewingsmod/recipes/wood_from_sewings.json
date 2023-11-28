@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:sewings",
+  "ingredients": [
+    {
+      "item": "sewingsmod:wood_ball_of_yarn"
+    }
+  ],
+  "output": {
+    "count": 8,
+    "item": "minecraft:oak_log"
+
+  }
+}

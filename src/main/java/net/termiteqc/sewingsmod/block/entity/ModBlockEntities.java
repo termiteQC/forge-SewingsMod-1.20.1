@@ -20,6 +20,16 @@ public class ModBlockEntities {
                     BlockEntityType.Builder.of(CardingTableBlockEntity::new,
                             ModBlocks.CARDING_TABLE.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<SewingsMachineBlockEntity>> SEWINGS_MACHINE_BE =
+            BLOCK_ENTITIES.register("sewings_machine_be", () ->
+                    BlockEntityType.Builder.of(SewingsMachineBlockEntity::new,
+                            ModBlocks.SEWINGS_MACHINE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<WinderPoleBlockEntity>> WINDER_POLE_BE =
+            BLOCK_ENTITIES.register("winder_pole_be", () ->
+                    BlockEntityType.Builder.of(WinderPoleBlockEntity::new,
+                            ModBlocks.WINDER_POLE.get()).build(null));
+
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);

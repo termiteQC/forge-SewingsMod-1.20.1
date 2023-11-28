@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:emerald_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:emerald_ball_of_yarn"
+
+  }
+}

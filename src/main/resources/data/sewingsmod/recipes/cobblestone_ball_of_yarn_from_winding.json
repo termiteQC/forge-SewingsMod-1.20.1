@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:cobblestone_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:cobblestone_ball_of_yarn"
+
+  }
+}

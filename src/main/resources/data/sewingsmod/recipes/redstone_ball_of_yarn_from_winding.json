@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:redstone_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:redstone_ball_of_yarn"
+
+  }
+}

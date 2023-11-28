@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "sewingsmod:wood_wool"
+    }
+
+
+  },
+  "pattern": [
+    "# #",
+    " # ",
+    "# #"
+  ],
+  "result": {
+    "item": "sewingsmod:wood_crafting_star"
+  },
+  "show_notification": true
+}

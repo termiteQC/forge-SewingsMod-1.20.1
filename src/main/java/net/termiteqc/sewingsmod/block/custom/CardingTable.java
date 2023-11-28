@@ -25,7 +25,7 @@ import net.termiteqc.sewingsmod.block.entity.ModBlockEntities;
 import org.jetbrains.annotations.Nullable;
 
 public class CardingTable extends BaseEntityBlock {
-    public static final VoxelShape SHAPE = Block.box(0,0,0,15,10,15);
+    public static final VoxelShape SHAPE = Block.box(0,0,0,16,10,16);
 
     public CardingTable(Properties pProperties) {
         super(pProperties);

@@ -22,7 +22,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.CARDING_TABLE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/carding_table")));
+        simpleBlockWithItem(ModBlocks.SEWINGS_MACHINE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/sewings_machine")));
+        simpleBlockWithItem(ModBlocks.WINDER_POLE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/winder_pole")));
     }
+
 
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

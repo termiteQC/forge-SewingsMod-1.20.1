@@ -33,11 +33,10 @@ public class CardingTableMenu extends AbstractContainerMenu {
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
-
-        // 116 et 44 x 54
+            //for the other case : 44,54 116,54
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler,0,44,14));
-            this.addSlot(new SlotItemHandler(iItemHandler,1,116,14));
+            this.addSlot(new SlotItemHandler(iItemHandler,0,44,34));
+            this.addSlot(new SlotItemHandler(iItemHandler,1,116,34));
         });
 
         addDataSlots(data);
@@ -49,7 +48,8 @@ public class CardingTableMenu extends AbstractContainerMenu {
 
     public int getScaledProgress() {
         int progress = this.data.get(0);
-        int maxProgress = this.data.get(1);  // Max Progress
+        int maxProgress = this.data.get(1);// Max Progress
+
         int progressArrowSize = 16; // This is the height in pixels of your arrow
 
         return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;

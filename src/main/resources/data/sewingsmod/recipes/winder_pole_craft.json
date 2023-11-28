@@ -2,11 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:oak_planks"
-    },
-
-    "&": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:iron_block"
     },
 
     "%": {
@@ -15,8 +11,8 @@
   },
   "pattern": [
     " % ",
-    " % ",
-    "#&#"
+    "#%#",
+    "###"
   ],
   "result": {
     "item": "sewingsmod:winder_pole"

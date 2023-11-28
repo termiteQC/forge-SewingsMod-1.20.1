@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:gravel_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:gravel_ball_of_yarn"
+
+  }
+}

@@ -16,6 +16,11 @@ public class ModRecipes {
     public static final RegistryObject<RecipeSerializer<CardingTableRecipe>> CARDING_TABLE_SERIALIZER =
             SERIALIZERS.register("carding", () -> CardingTableRecipe.Serializer.INSTANCE);
 
+    public static final RegistryObject<RecipeSerializer<SewingsMachineRecipe>> SEWINGS_MACHINE_SERIALIZER =
+            SERIALIZERS.register("sewings", () -> SewingsMachineRecipe.Serializer.INSTANCE);
+    public static final RegistryObject<RecipeSerializer<WinderPoleRecipe>> WINDER_POLE_SERIALIZER =
+            SERIALIZERS.register("winding", () -> WinderPoleRecipe.Serializer.INSTANCE);
+
 
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);

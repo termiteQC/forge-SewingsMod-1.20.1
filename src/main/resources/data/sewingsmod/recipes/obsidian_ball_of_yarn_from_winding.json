@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:obsidian_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:obsidian_ball_of_yarn"
+
+  }
+}

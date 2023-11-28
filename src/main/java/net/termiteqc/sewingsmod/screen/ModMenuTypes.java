@@ -18,6 +18,11 @@ public class ModMenuTypes {
 
     public static final RegistryObject<MenuType<CardingTableMenu>> CARDING_TABLE_MENU =
             registerMenuType("carding_table_menu", CardingTableMenu::new);
+    public static final RegistryObject<MenuType<SewingsMachineMenu>> SEWINGS_MACHINE_MENU =
+            registerMenuType("sewings_machine_menu", SewingsMachineMenu::new);
+
+    public static final RegistryObject<MenuType<WinderPoleMenu>> WINDER_POLE_MENU =
+            registerMenuType("winder_pole_menu", WinderPoleMenu::new);
 
 
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory) {

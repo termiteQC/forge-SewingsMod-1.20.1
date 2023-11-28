@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:lapis_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:lapis_ball_of_yarn"
+
+  }
+}

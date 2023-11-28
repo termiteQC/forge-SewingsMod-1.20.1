@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "sewingsmod:wood_crafting_star"
+    },
+
+    "&": {
+      "item": "sewingsmod:supra_blue_emerald"
+    }
+
+  },
+  "pattern": [
+    "&#&",
+    "#&#",
+    "&#&"
+  ],
+  "result": {
+    "item": "sewingsmod:supra_wood_crafting_star"
+  },
+  "show_notification": true
+}

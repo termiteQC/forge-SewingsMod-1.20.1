@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:sewings",
+  "ingredients": [
+    {
+      "item": "sewingsmod:slime_ball_of_yarn"
+    }
+  ],
+  "output": {
+    "count": 8,
+    "item": "minecraft:slime_ball"
+
+  }
+}

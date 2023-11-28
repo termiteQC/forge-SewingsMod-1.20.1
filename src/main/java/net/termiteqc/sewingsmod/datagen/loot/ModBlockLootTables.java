@@ -30,5 +30,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
 
         this.dropSelf(ModBlocks.CARDING_TABLE.get());
+        this.dropSelf(ModBlocks.SEWINGS_MACHINE.get());
+        this.dropSelf(ModBlocks.WINDER_POLE.get());
     }
 }

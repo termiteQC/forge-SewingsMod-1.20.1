@@ -197,7 +197,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SEWINGS_MACHINE = registerBlock("sewings_machine",
             () -> new SewingsMachine(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> WINDER_POLE = registerBlock("winder_pole",
-            () -> new WinderPole(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+            () -> new WinderPole(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

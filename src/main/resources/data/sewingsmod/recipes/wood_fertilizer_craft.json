@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+
+    "&": {
+      "item": "minecraft:bundle"
+    },
+
+    "$": {
+      "item": "sewingsmod:wood_crafting_star"
+    }
+
+  },
+  "pattern": [
+    "$$$",
+    "$&$",
+    "$$$"
+  ],
+  "result": {
+    "item": "sewingsmod:wood_fertilizer"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:winding",
+  "ingredients": [
+    {
+      "item": "sewingsmod:iron_string"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "sewingsmod:iron_ball_of_yarn"
+
+  }
+}

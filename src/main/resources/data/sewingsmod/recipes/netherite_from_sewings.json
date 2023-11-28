@@ -1,0 +1,13 @@
+{
+  "type": "sewingsmod:sewings",
+  "ingredients": [
+    {
+      "item": "sewingsmod:netherite_ball_of_yarn"
+    }
+  ],
+  "output": {
+    "count": 8,
+    "item": "minecraft:netherite_scrap"
+
+  }
+}
