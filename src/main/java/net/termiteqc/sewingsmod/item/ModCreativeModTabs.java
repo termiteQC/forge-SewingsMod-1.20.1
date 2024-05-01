@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.termiteqc.entity.ModEntities;
 import net.termiteqc.sewingsmod.SewingsMod;
 import net.termiteqc.sewingsmod.block.ModBlocks;
 
@@ -372,6 +373,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WOOD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.DIRT_WITH_WOOD_FERTILIZER.get());
                         pOutput.accept(ModBlocks.GRASS_WITH_WOOD_FERTILIZER.get());
+
+
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> SEWINGSMOD_EGGS_TAB = CREATIVE_MODE_TABS.register("sewingsmod_eggs_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DIRT_WITH_DIAMOND_FERTILIZER.get()))
+                    .title(Component.translatable("creativetab.sewingsmod_eggs_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModItems.DIAMOND_SHEEP_SPAWN_EGG.get());
 
 
 

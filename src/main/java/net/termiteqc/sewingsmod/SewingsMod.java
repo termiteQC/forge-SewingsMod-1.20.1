@@ -2,6 +2,7 @@ package net.termiteqc.sewingsmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,6 +13,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.termiteqc.entity.ModEntities;
+import net.termiteqc.entity.client.DiamondSheepRenderer;
 import net.termiteqc.sewingsmod.block.ModBlocks;
 import net.termiteqc.sewingsmod.block.entity.CardingTableBlockEntity;
 import net.termiteqc.sewingsmod.block.entity.ModBlockEntities;
@@ -43,6 +46,7 @@ public class SewingsMod {
 
 
         ModRecipes.register(modEventBus);
+        ModEntities.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -74,7 +78,7 @@ public class SewingsMod {
             MenuScreens.register(ModMenuTypes.CARDING_TABLE_MENU.get(), CardingTableScreen::new);
             MenuScreens.register(ModMenuTypes.SEWINGS_MACHINE_MENU.get(), SewingsMachineScreen::new);
             MenuScreens.register(ModMenuTypes.WINDER_POLE_MENU.get(), WinderPoleScreen::new);
-
+            EntityRenderers.register(ModEntities.DIAMOND_SHEEP.get(), DiamondSheepRenderer::new);
         }
     }
 }

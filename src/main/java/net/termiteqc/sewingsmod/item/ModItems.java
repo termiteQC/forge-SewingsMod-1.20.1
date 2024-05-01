@@ -3,10 +3,12 @@ package net.termiteqc.sewingsmod.item;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShearsItem;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.termiteqc.entity.ModEntities;
 import net.termiteqc.sewingsmod.SewingsMod;
 
 import java.awt.event.InputEvent;
@@ -364,11 +366,6 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
             () -> new Item(new Item.Properties()));
 
 
-
-
-
-
-
     public static final RegistryObject<Item> WOOD_SHEARS = ITEMS.register("wood_shears",
             () -> new ShearsItem(new Item.Properties().durability(5)));
     public static final RegistryObject<Item> GOLD_SHEARS = ITEMS.register("gold_shears",
@@ -385,6 +382,10 @@ public static final RegistryObject<Item> ANDESITE_BALL_OF_YARN = ITEMS.register(
     public static final RegistryObject<Item> SUPRA_BLUE_EMERALD = ITEMS.register("supra_blue_emerald",
             () -> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> DIAMOND_SHEEP_SPAWN_EGG = ITEMS.register("diamond_sheep_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.DIAMOND_SHEEP, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
